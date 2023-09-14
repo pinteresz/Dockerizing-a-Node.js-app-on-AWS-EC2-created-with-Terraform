@@ -13,4 +13,4 @@ Steps:
 7. To create a package.json file and install the "express" package and create the node_modules directory and package-lock.json file, I used: sudo npm init -y, sudo npm install express
 8. I created a Docker image from the Dockerfile in the directory containing the Dockerfile: sudo docker build -t <image_name> .
 9. I ran the image inside a Docker container on port 3000: sudo docker run -dp 3000:3000 <image_name>
-10. On localhost:3000 in the EC2 instance, I could see "Hello, DevOps!".
+10. From my local machine's web browser on ec2-public-ip:3000 and in the EC2 instance on localhost:3000, I could see "Hello, DevOps!".
