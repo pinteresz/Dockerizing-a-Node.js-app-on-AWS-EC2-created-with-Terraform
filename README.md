@@ -2,7 +2,7 @@
 
 ### :point_right: **In this project, I created an AWS infrastructure using Terraform. In the EC2 instance I've created, I dockerized a simple Hello, DevOps! Node.js app.** :point_left:
 
-**Steps:**
+### **Steps:**
 
 - [x] I **create**d the Node.js **app file** and the **Dockerfile**. (app.js, Dockerfile)
       
